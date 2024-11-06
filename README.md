@@ -20,16 +20,15 @@ Download the SureBeat package and ensure the folder structure remains as follows
 
 ```
 SureBeat/
-├── SureBeat_main.luac              # Main script file
-├── SureBeat.lua                    # Configuration file / Loadfile
+├── SureBeat.lua                    # Main Script
 ├── Aubio/                          # Aubio binaries
 │   ├── bin/
 │   │   ├── aubioonset
-│   │   └── aubiotempo
+│   │   └── aubiotempo              # macOS only for now
 │   └── lib/
 │       ├── libaubio.a
 │       ├── libaubio.dylib
-│       ├── other Aubio libraries
+│       ├── other Aubio libraries   # See Windows files and macOS files
 ├── FFmpeg/                         # FFmpeg binaries
 │   └── bin/
 │       └── ffmpeg
