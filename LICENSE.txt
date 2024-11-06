@@ -1,0 +1,24 @@
+**SureBeat by Mansi Visuals License**
+
+Copyright (c) 2024 Mansi Visuals
+
+**License for Free Use**
+
+SureBeat is proprietary software developed by Mansi Visuals and is provided free for personal or commercial use. Redistribution, modification, or sharing of SureBeat’s code or binaries, in whole or in part, is prohibited without prior written consent from Mansi Visuals. Donations are appreciated and help support the development of SureBeat, but they are not required for usage.
+
+**Third-Party Components**
+
+SureBeat utilizes **Aubio** and **FFmpeg** as standalone, external tools:
+- **Aubio**: Distributed under the GNU General Public License v3.0 (https://aubio.org). The aubioonset binary and any related libraries are provided under the terms of GPLv3, which applies exclusively to Aubio.
+- **FFmpeg**: Licensed under LGPL/GPL (https://ffmpeg.org). The FFmpeg binary is provided as a standalone tool, and the LGPL/GPL licenses apply exclusively to FFmpeg.
+
+These licenses apply solely to their respective binaries and do not extend to SureBeat’s proprietary code.
+
+**Disclaimer**
+
+SureBeat is provided "as-is," without any warranty, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or noninfringement. Mansi Visuals is not liable for any claim, damages, or liabilities arising from use of SureBeat.
+
+**Contact**
+
+For support or inquiries, please contact:
+surebeat@mansivisuals.com

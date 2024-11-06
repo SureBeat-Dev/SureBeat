@@ -1,0 +1,4 @@
+Windows/FFmpeg/bin/ffmpeg.exe filter=lfs diff=lfs merge=lfs -text
+macOS/V0.0.01/SureBeat[[:space:]]UNCOMPILED[[:space:]]_[[:space:]]SOURCE/FFmpeg/bin/ffmpeg filter=lfs diff=lfs merge=lfs -text
+macOS/FFmpeg/bin/ffmpeg filter=lfs diff=lfs merge=lfs -text
+Windows/FFmpeg/bin/ffmpeg filter=lfs diff=lfs merge=lfs -text
