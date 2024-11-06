@@ -6,6 +6,9 @@ local ffmpeg_path = "C:\\ProgramData\\Blackmagic Design\\DaVinci Resolve\\Fusion
 local aubio_lib_path = "C:\\ProgramData\\Blackmagic Design\\DaVinci Resolve\\Fusion\\Scripts\\Utility\\SureBeat\\Aubio\\lib"
 local temp_folder_path = "C:\\ProgramData\\Blackmagic Design\\DaVinci Resolve\\Fusion\\Scripts\\Utility\\SureBeat\\Temp"
 
+-- Define global variables
+resolve = Resolve()
+
 -- Ensure Temp folder exists
 function ensure_temp_folder()
     local folder_check_command = string.format('if not exist "%s" mkdir "%s"', temp_folder_path, temp_folder_path)
@@ -119,7 +122,6 @@ end
 
 -- Function to add markers based on detected transients
 function add_markers(win, audio_file_name, add_transients)
-    local resolve = Resolve()
     if not resolve then
         print("Error: DaVinci Resolve scripting API could not be initialized.")
         return false
@@ -178,7 +180,6 @@ end
 
 -- Function to list audio clips in the current timeline for debugging
 function list_audio_clips_in_current_timeline()
-    local resolve = Resolve()
     local projectManager = resolve:GetProjectManager()
     local project = projectManager:GetCurrentProject()
     local timeline = project:GetCurrentTimeline()
